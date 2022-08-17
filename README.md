@@ -16,73 +16,76 @@ Easy Ensemble Classifying.
   
  ### Naive Random Oversampling
 
--Accuracy Score: 67.4%
+-Accuracy Score: 66%
 -Precision High Risk: 1%
 -Precision Low Risk: 100%
--Recall High Risk: 72%
--Recall Low Risk: 63%
+-Recall High Risk: 71%
+-Recall Low Risk: 61%
 
 ![image](https://user-images.githubusercontent.com/92646311/185248825-4eadf30b-c001-48c9-b895-92a171d80541.png)
 
 
 ### SMOTE Oversampling
-Accuracy Score: 66.2%
-Precision High Risk: 1%
-Precision Low Risk: 100%
-Recall High Risk: 66%
-Recall Low Risk: 66%
+-Accuracy Score: 66.2%
+-Precision High Risk: 1%
+-Precision Low Risk: 100%
+-Recall High Risk: 63%
+-Recall Low Risk: 69%
+
+![image](https://user-images.githubusercontent.com/92646311/185249921-2d02d469-fd0b-4b7d-b851-715c42c20f9d.png)
+
 
 ### Cluster Centroid Undersampling
-Accuracy Score: 51.3%
-Precision High Risk: 0%
+Accuracy Score: 54.4%
+Precision High Risk: 1%
 Precision Low Risk: 100%
-Recall High Risk: 61%
-Recall Low Risk: 42%
+Recall High Risk: 69%
+Recall Low Risk: 4o%
+
+![image](https://user-images.githubusercontent.com/92646311/185250250-681cfcaf-71aa-4f41-b0d5-2408fa4c2ece.png)
+
 
 
 
 Deliverable 2: Use the SMOTEENN algorithm to Predict Credit Risk
 
 ### SMOTEENN Sampling
-Accuracy Score: 68.1%
+Accuracy Score: 67.4%
 Precision High Risk: 1%
 Precision Low Risk: 100%
-Recall High Risk: 76%
+Recall High Risk: 75%
 Recall Low Risk: 60%
+
+![image](https://user-images.githubusercontent.com/92646311/185250555-8f5823ed-0487-40f8-bb37-52b82dab8542.png)
+
 
 Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk 
 
 ### Balanced Random Forest Classifying
-Accuracy Score: 64.8%
-Precision High Risk: 56%
+Accuracy Score: 78.7%
+Precision High Risk: 4%
 Precision Low Risk: 100%
-Recall High Risk: 30%
-Recall Low Risk: 100%
+Recall High Risk: 67%
+Recall Low Risk: 91%
+
+![image](https://user-images.githubusercontent.com/92646311/185250765-7939215f-824f-48e4-ad43-fc0c40361f7e.png)
+
 
 ### Easy Ensemble Classifying
-Accuracy Score: 92.3%
-Precision High Risk: 6%
+Accuracy Score: 92.5%
+Precision High Risk: 7%
 Precision Low Risk: 100%
 Recall High Risk: 91%
 Recall Low Risk: 94%
 
+![image](https://user-images.githubusercontent.com/92646311/185250948-50e4989d-d934-459d-a547-660edc5cbe28.png)
+
+
 # Summary
-. Looking through the different models, the ones that scored the highest were:
 
-Easy Ensemble Classifying (91%)
-SMOTEENN Sampling (76%)
-Naive Random Oversampling (72%)
+By Looking at the different models outcome, we can say that the models that perform better is  "Easy Ensemble Classifying with  91% Recall high risk. Also the percision is lower compared to other models. This model would be the first recommendation performing credit risk analusis.
 
 
-another important statistic is recall rate for low risk as it shows how many low risk loans are flagged as high risk.
-
-Balanced Random Forest Classifying (100%)
-Easy Ensemble Classifying (94%)
 
 
-After taking these two statistics over the others, we can look at the accurary score to get a picture of how well the model performs in general. The models with the highest accuracy scores were:
 
-Easy Ensemble Classify (92.3%)
-SMOTEENN Sampling (68.1%)
-Balanced Random Forest Classifying (64.8%)
-After factoring in these three main statistics, the model that I would recommend to use for predicting high risk loans is the Easy Ensemble Classifying model.
