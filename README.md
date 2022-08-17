@@ -3,14 +3,14 @@
 
 # Overview of the Project
 
-Credit risk is an inherently unbalanced classification problem, as good loans easily outnumber risky loans.The purpose of this analysis is to create a supervised machine learning model that accurately predict credit risk. We evaluated various machine learning models to determine which is better at predicting credit risk.
+Credit risk is an inherently unbalanced classification problem, as good loans easily outnumber risky loans.The purpose of this analysis is to create a supervised machine learning model that accurately predict credit risk. We evaluated various machine learning models to determine which is better at predicting credit risk. We used following algorithms/techniques.
 
-Naive Random Oversampling
-SMOTE Oversampling
-Cluster Centroid Undersampling
-SMOTEENN Sampling
-Balanced Random Forest Classifying
-Easy Ensemble Classifying
+Naive Random Oversampling,
+SMOTE Oversampling,
+Cluster Centroid Undersampling,
+SMOTEENN Sampling,
+Balanced Random Forest Classifying,
+Easy Ensemble Classifying.
 
 ** Deliverable 1: Use Resampling Models to Predict Credit Risk
   
@@ -21,6 +21,9 @@ Easy Ensemble Classifying
 -Precision Low Risk: 100%
 -Recall High Risk: 72%
 -Recall Low Risk: 63%
+
+![image](https://user-images.githubusercontent.com/92646311/185248825-4eadf30b-c001-48c9-b895-92a171d80541.png)
+
 
 ### SMOTE Oversampling
 Accuracy Score: 66.2%
