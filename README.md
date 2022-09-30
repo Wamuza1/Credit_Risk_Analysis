@@ -12,7 +12,7 @@ SMOTEENN Sampling,
 Balanced Random Forest Classifying,
 Easy Ensemble Classifying.
 
-** Deliverable 1: Use Resampling Models to Predict Credit Risk
+# Use Resampling Models to Predict Credit Risk
   
  ### Naive Random Oversampling
 
@@ -47,7 +47,7 @@ Recall Low Risk: 4o%
 
 
 
-Deliverable 2: Use the SMOTEENN algorithm to Predict Credit Risk
+# Use the SMOTEENN algorithm to Predict Credit Risk
 
 ### SMOTEENN Sampling
 Accuracy Score: 67.4%
@@ -59,7 +59,7 @@ Recall Low Risk: 60%
 ![image](https://user-images.githubusercontent.com/92646311/185250555-8f5823ed-0487-40f8-bb37-52b82dab8542.png)
 
 
-Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk 
+# Use Ensemble Classifiers to Predict Credit Risk 
 
 ### Balanced Random Forest Classifying
 Accuracy Score: 78.7%
